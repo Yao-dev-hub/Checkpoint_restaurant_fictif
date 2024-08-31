@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <!-- importation de bootstrap -->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+
+  <!-- importation des font pour les icones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- style personnel -->
+  <link rel="stylesheet" href="/css/style.css">
+    
+</head>
+<body>
+    <!-- Section header du restaurant -->
+    <div class="container-fluid navbar-mobile parent-container">
+      <!-- Création d'une barre d'addresse -->
+      <div class="row view-on-mobile pt-2">
+          <div class="col-lg-4 text-center">
+              <p class="text-white"> <span class="icon-tel me-2 "><i class="fa fa-phone" aria-hidden="true"></i></span>+255 25 00 20 47 09</p>
+          </div>
+          <div class="col-lg-4 text-center">
+              <p class="text-white"> <span class="icon-send me-2"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></span>votre_email@gamil.com</p>
+          </div>
+          <div class="col-lg-4">
+            <p class="text-white">Horaires : Lundi - Dimanche 8h00 - 21h00</p>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">RESTO-IVOIRE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">ACCUEIL
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">A PROPOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">MENU</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">CONTACT</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+          <!-- Inseertion du grand titre -->
+        <div class="container container-text">
+          <div class="row">
+              <div class="col-lg-6 text-insertion mx-auto">
+                  <h1 class="text-center"></span>Votre Aventure Culinaire Commence ici</span></h1>
+                  <button class="btn btn-warning p-2 text-center">Reserver</button>
+              </div>
+          </div>
+        </div>
+
+        <!-- Présentation de quelque plats du restaurant -->
+
+        <div class="container-fluid food-bar">
+            <div class="row">
+
+                <div class="col-lg-3 coontainer-food">
+                    <div class="container-img mb-3" style="background-image: url(images/met3.jpg);"></div>
+                    <div class="description">
+                        <p class="text-center">Légumes Rôtis au Four</p>
+                        <p class=text-center" style="font-size: small;color:gray">“Légumes de saison rôtis à l’huile d’olive et ail.”</p>
+                    </div>
+                </div>
+
+                  <div class="col-lg-3 coontainer-food">
+                    <div class="container-img mb-3 " style="background-image: url(images/met2.jfif);"></div>
+                    <div class="description">
+                        <p class="text-center">Bruschetta à la Tomate et au Basilic</p>
+                        <p class=" text-center" style="font-size: small;color:gray">“Bruschetta à l’ail, tomates fraîches, basilic et huile d’olive.”</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 coontainer-food">
+                    <div class="container-img mb-3 " style="background-image: url(images/met4.webp);" ></div>
+                    <div class="description">
+                        <p class="text-center">Carpaccio de Bœuf</p>
+                        <p class="text-center" style="font-size: small;color:gray">“Carpaccio de bœuf, citron, huile d’olive, roquette.”</p>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-3 coontainer-food">
+                    <div class="container-img mb-3" style="background-image: url(images/met7.jfif);"></div>
+                    <div class="description">
+                        <p class="text-center">Riz Pilaf aux Herbes</p>
+                        <p class="text-center" style="font-size: small;color:gray">“Riz parfumé aux herbes fraîches.”</p>
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+    </div>
+    <section class="apropos mt-3">
+        <div class="container">
+            <div class="row container-about">
+                <div class="col-lg-6 first-part">
+                    <div class="rectangle1" style="height: 500px; width: 250px; background-image: url(images/serveur3.png);"></div>
+                    <div class="rectangle2" style="height: 500px;  width: 250px; background-image: url(images/serveuse.jpg);"></div>
+                </div>
+
+                <div class="col-lg-6 second-part">
+                  <div class="titre">
+                      <h2>TOUT SAVOIR SUR NOUS</h2>
+                  </div>
+                  <div class="text-description">
+                    <p class="para">
+                      Bienvenue à <span class="text-danger">RESTO-IVOIRE</span>, où la tradition ivoirienne rencontre l’innovation culinaire. Situé au cœur de Cocody, Abidjan, 
+                      notre restaurant vous invite à découvrir une expérience gastronomique unique, célébrant les saveurs authentiques de la Côte d’Ivoire.
+                      Notre chef talentueux utilise des ingrédients frais et locaux pour créer des plats qui raviront vos papilles. 
+                      Que vous soyez amateur de mets traditionnels ou à la recherche de nouvelles saveurs, 
+                      notre menu varié saura satisfaire toutes vos envies.
+                      Chez [Nom du Restaurant], nous croyons que chaque repas est une occasion spéciale. 
+                      C’est pourquoi nous nous efforçons de vous offrir un service chaleureux et attentif, dans une ambiance conviviale et élégante.
+                      Venez partager un moment inoubliable avec nous, que ce soit pour un déjeuner d’affaires, un dîner romantique ou une célébration en famille.
+                      Nous sommes impatients de vous accueillir et de vous faire découvrir le meilleur de la cuisine ivoirienne.
+                    </p>
+                 </div>
+                  <div class="view-mobile-about-info">
+                    <p class="text-center me-2"> <span class="icon-tel me-2 "><i class="fa fa-phone me-2" aria-hidden="true"></i>+ 255 55 78 69 35 4</span></p>
+                    <p class="text-center me-2"> <span class="icon-tel me-2 "><i class="fa fa-envelope me-2" aria-hidden="true"></i>Resto-Ivoire_email@gamil.com</span></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <!-- section services -->
+    <section class="service my-5">
+        <div class="container">
+            <div class="row">
+                    <h2 class="text-center "> NOS SERVICES</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <div class="card p-1 mb-2">
+                        <img src="images/anni.jpg" class="img-fluid mx-auto" style="width: 300px; height: 200px;" alt="gateau-anni">
+                        <div class="body text-center">
+                            <h2 class="fs-4">plan anniversaire</h2>
+                            <p class="fs-6">
+                              Chez [Nom du Restaurant], nous transformons chaque anniversaire en une célébration inoubliable. 
+                              Notre équipe dévouée est là pour s’assurer que votre journée spéciale 
+                              soit remplie de moments mémorables et de délices culinaires.
+                            </p>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card p-1 mb-2">
+                     <img src="images/reunion-2.jpg" class="img-fluid mx-auto" style="width: 300px; height: 200px;" alt="gateau-anni">
+                     <div class="body text-center">
+                         <h2 class="fs-4">Réunions d’affaires</h2>
+                         <p class="fs-6">
+                            Chez [Nom du Restaurant], nous transformons chaque mariage en une célébration inoubliable.
+                            Notre équipe dévouée est là pour s’assurer que votre journée spéciale 
+                            soit remplie de moments mémorables et de délices culinaires.
+                         </p>
+                     </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card p-1 mb-2">
+                  <img src="images/mariage.jpg" class="img-fluid mx-auto" style="width: 300px; height: 200px;" alt="gateau-anni">
+                   <div class="body text-center">
+                       <h2 class="fs-4">plan mariage</h2>
+                       <p class="fs-6">
+                          Chez [Nom du Restaurant], nous transformons chaque mariage en une célébration inoubliable.
+                          Notre équipe dévouée est là pour s’assurer que votre journée spéciale 
+                          soit remplie de moments mémorables et de délices culinaires.
+                      </p>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!--  Section menu  -->
+      <section class="menu">
+          <div class="container">
+              <div class="row">
+                  <h2 class="text-center">QUELQUES MENUS</h2>
+              </div>
+
+              <div class="row mb-2 image-menu">
+                  <div class="col-lg-4">
+                      <img src="images/plat1.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                      <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <p>prix: <span class="text-danger">5000f</span></p>
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="images/plat2.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>prix: <span class="text-danger">5000f</span></p>
+                  </div>
+                  <div class="col-lg-4">
+                    <img src="images/plat3.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                    <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>prix: <span class="text-danger">5000f</span></p>
+                  </div>
+              </div>
+
+              <div class="row mb-2 image-menu">
+                <div class="col-lg-4">
+                  <img src="images/plat4.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                  <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>prix: <span class="text-danger">5000f</span></p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/plat5.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                  <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>prix: <span class="text-danger">5000f</span></p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/plat7.avif" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                  <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>prix: <span class="text-danger">5000f</span></p>
+                </div>
+            </div>
+
+            <div class="row mb-4 image-menu">
+              <div class="col-lg-4">
+                <img src="images/plat6.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>prix: <span class="text-danger">5000f</span></p>
+              </div>
+              <div class="col-lg-4">
+                <img src="images/plat8.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>prix: <span class="text-danger">5000f</span></p>
+              </div>
+              <div class="col-lg-4">
+                <img src="images/plat9.jpg" class="img-fluid" style="width: 200px; height: 200px;"  alt="img-menu">
+                <p class="fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>prix: <span class="text-danger">5000f</span></p>
+              </div>
+            </div>
+
+          </div>
+      </section>
+      <hr>
+
+      <!-- Section contact -->
+       <section class="contact py-5">
+          <div class="contain">
+              <div class="row">
+                  <h2 class="text-center mb-5">CONTACTEZ-NOUS</h2>
+              </div>
+              <div class="row">
+                  <div class="col-lg-5">
+                    <form>
+                      <fieldset>
+                        <legend>Legend</legend>
+                        <div class="row">
+                          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                          <div class="col-sm-10">
+                            <input type="text" readonly="" class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                          </div>
+                        </div>
+                        <div>
+                          <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div>
+                          <label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" autocomplete="off">
+                        </div>
+                        <div>
+                          <label for="exampleSelect1" class="form-label mt-4">Example select</label>
+                          <select class="form-select " id="exampleSelect1">
+                            <option>menu 1</option>
+                            <option>menu 2</option>
+                            <option>menu 3</option>
+                            <option>menu 4</option>
+                            <option>menu 5</option>
+                          </select>
+                        </div>
+                        <div>
+                        <button type="submit" class="btn btn-primary  mt-4">Submit</button>
+                      </fieldset>
+                    </form>
+                  </div>
+              </div>
+          </div>
+       </section>
+
+       <hr>
+
+       <section class="footer">
+          <div class="container py-5">
+              <div class="row mb-4">
+                  <div class="col-lg-3">
+                    <div class="titre">
+                      <h3 class="text-center  text-danger">RESTO-IVOIRE</h3>
+                    </div>
+                    <div class="para text-center">
+                      <p>
+                        “Loin, très loin, derrière les montagnes de mots,<br/>
+                        loin des pays Vokalia et Consonantia, <br/>
+                        vivent les textes aveugles.”
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="titre">
+                      <h3 class="text-center text-danger">Ouverture</h3> 
+                    </div>
+                    <div class="para text-center">
+                      <p>
+                        Monday :9:00 - 24:00 <br/>
+                        Tuesday :9:00 - 24:00<br/>
+                        Wednesday :9:00 - 24:00<br/>
+                        Thursday :9:00 - 24:00<br/>
+                        Friday :9:00 - 02:00<br/>
+                        Saturday :9:00 - 02:00<br/>
+                        Sunday :9:00 - 02:00<br/>
+                     </p>
+                    </div>
+
+                  </div>
+                  <div class="col-lg-3">
+                      <div class="titre">
+                          <h3 class="text-center  text-danger">Reseaux Sociaux</h3>
+                      </div>
+                      <div class="para text-center my-4">
+                          <p><i class="fab fa-facebook me-2" aria-hidden="true"></i>facebook</p>
+                          <p><i class="fab fa-instagram me-2" aria-hidden="true"></i>instagram</p>
+                          <p><i class="fab fa-twitter me-2" aria-hidden="true"></i>twitter</p>
+                          <p><i class="fab fa-whatsapp me-2" aria-hidden="true"></i>whatsapp</p>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3">
+                    <div class="titre">
+                        <h3 class="text-center  text-danger ">Newsletters</h3>
+                    </div>
+                    <div class="para text-center">
+                      <div class="row">
+                        <div>
+                          <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="row mt-4">
+                <p class="text-center">&copy Copyright 2024 All rights reserved</p>
+              </div>
+          </div>
+       </section>
+
+</body>
+</html>

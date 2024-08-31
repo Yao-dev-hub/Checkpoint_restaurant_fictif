@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..700&display=swap');
+
+
+.parent-container {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.742),rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.695),rgba(0, 0, 0, 0.864)), url(../images/banniere.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-text {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-insertion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-insertion  .btn {
+    box-shadow: 0px 0px 3px white;
+    border-radius: 2px;
+}
+
+.text-insertion h1 {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.873);
+}
+
+.coontainer-food {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+
+.container-img {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    
+
+}
+
+.food-bar {
+    border: 2px solid transparent;
+    border-top-color: rgb(70, 65, 65);
+}
+
+.coontainer-food p {
+    color: white;
+}
+
+.rectangle1,.rectangle2 {
+    border:1px solid rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.first-part .rectangle2 {
+    margin-top: 30px;
+}
+
+.image-menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.image-menu  .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .contain .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.312);
+    color:white;
+}
+
+
+
+
+
+/* affichage sur petit écran */
+@media screen and (max-width : 768px) {
+    
+    container-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-part h2 {
+        font-size: 20px;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        text-shadow: 0 0 2px black;
+        margin-bottom: 10px;
+    }
+
+    .second-part .para {
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .first-part .rectangle2, .rectangle1 {
+        display: none;
+    }
+
+    .container-about .view-on-mobile-about-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .second-part .text-description{
+        font-size: small;
+        font-weight: bold;
+    }
+
+    .contact .col-lg-5 form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .view-on-mobile {
+        display: none;
+    }
+
+    form{
+        display: flex;
+    }
+
+    .first-part {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-mobile {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .text-insertion h1 {
+        word-spacing: normal;
+        color: white;
+        font-size: 25px;
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.873);
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .footer .container .row col-lg-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .titre h3 {
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    }
+
+}
